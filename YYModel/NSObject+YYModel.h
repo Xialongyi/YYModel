@@ -206,6 +206,7 @@ NS_ASSUME_NONNULL_BEGIN
  @return `YES` if the reciever is equal to the object, otherwise `NO`.
  */
 - (BOOL)yy_modelIsEqual:(id)model;
+- (BOOL)yy_modelHashIsEqual:(id)model;
 
 /**
  Description method for debugging purposes based on properties.
